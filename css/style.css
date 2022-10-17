@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 80px;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+.green-color {
+    color: #007f2a;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+
+/* FLEXBOX */
+
+.flex-container {
+    display: flex;
+}
+
+.first-column {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.second-column {
+    width: 60%;
+}
